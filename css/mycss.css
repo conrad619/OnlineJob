@@ -93,6 +93,7 @@ ul.navbar-nav > li a:hover{
 .page-body h2,p{
   margin: 0;
   padding:0;
+  margin-bottom: 35px;
 }
 .page-body h2{
   font-family: 'SourceSansB';
