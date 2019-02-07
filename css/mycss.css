@@ -33,9 +33,9 @@ body{
 }
 
 ul.navbar-nav > li a{
-  font-family: 'SourceSans';
+  font-family: 'SourceSansB';
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   font-size: 15px;
   color:#5b5b5b;
 }
