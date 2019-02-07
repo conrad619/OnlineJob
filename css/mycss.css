@@ -1,16 +1,47 @@
+body{
+  color:#053673;
+}
+
 .page-width{
   width: 944px;
 }
-@font-face{
-    font-family:'Source Sans';
-    src:url('../fonts/SourceSansPro-Regular.otf');
 
+@font-face{
+    font-family:'SourceSans';
+    src:url('../fonts/SourceSansPro-Regular.otf');
+}
+@font-face{
+  font-family: 'SourceSansBL';
+  src:url('../fonts/SourceSansPro-Black.otf');
+}
+@font-face{
+  font-family: 'SourceSansB';
+  src:url('../fonts/SourceSansPro-Bold.otf');
+}
+@font-face{
+  font-family: 'SourceSansSB';
+  src:url('../fonts/SourceSansPro-Semibold.otf');
+}
+@font-face{
+  font-family: 'SourceSansL';
+  src:url('../fonts/SourceSansPro-Light.otf');
+}
+
+.page-logo{
+  width: 164px;
+  height: 60px;
 }
 
 ul.navbar-nav > li a{
-  font-family: 'Source Sans';
+  font-family: 'SourceSans';
   font-weight: bold;
   letter-spacing: 4px;
+  font-size: 15px;
+  color:#5b5b5b;
+}
+
+ul.navbar-nav > li a:hover{
+  color:#313131;
 }
 
 .page-header-img{
@@ -20,3 +51,121 @@ ul.navbar-nav > li a{
   height:370px;
 
 }
+
+.page-social-icons > a img{
+  width: 36px;
+  height: 36px;
+  margin-left: 5px;
+}
+
+
+.page-title h1,h3{
+  margin:0;
+  padding:0;
+}
+
+.page-title{
+  margin-top:46px;
+}
+
+.page-title h1{
+  font-family: 'SourceSansB';
+  font-size: 34px;
+  margin-bottom: 34px;
+  margin-right: 220px;
+}
+
+.page-author{  
+  margin-bottom: 48px;
+}
+
+.page-author h3{
+  font-family: 'SourceSansSB';
+  font-size: 22px;
+}
+
+.page-author h3.role{
+  font-family: 'SourceSansL';
+  font-size: 22px;
+  color:#48bccc;
+}
+
+.page-body h2,p{
+  margin: 0;
+  padding:0;
+}
+.page-body h2{
+  font-family: 'SourceSansB';
+  font-size: 24px;  
+}
+.page-body p{
+  font-family: 'SourceSans';
+  font-size: 18px;
+}
+
+.page-img-right{
+  object-fit: cover;
+  width:537px;
+  height: 230px;
+  margin-left:38px;
+  margin-bottom: 30px; 
+  margin-top: 6px; 
+}
+
+hr{
+  border-top:1px solid #053673;
+}
+
+.page-body-footer{
+}
+
+.page-body-footer h5{
+  font-size: 16px;
+}
+.page-body-footer h3{
+  font-family: 'SourceSansBL';
+  font-size: 18px;
+}
+.page-body-footer p{
+  font-size: 18px;
+  margin-right:250px;
+}
+
+.page-footer{
+  background: #f1f1f1;
+}
+
+.page-related{
+  font-size: 18px;
+  font-family: 'SourceSansBL';
+  letter-spacing: 2px;
+}
+
+.page-card{
+  width: 292px;
+  background: none;
+}
+
+.page-card img{
+  object-fit: cover;
+  object-position: 0 0;
+  width: 292px;
+  height: : 178px;
+}
+
+.page-card .card-title{
+  font-family: 'SourceSansB';
+  font-size: 16px;
+}
+
+.page-card .card-text{
+  font-family: 'SourceSansSB';
+  font-size: 12px;
+}
+
+.page-card .card-subtitle{
+  font-family: 'SourceSansL';
+  font-size: 12px;
+  color:#e14808;
+}
+
