@@ -141,16 +141,14 @@ hr{
   letter-spacing: 2px;
 }
 
-.page-card{
-  width: 292px;
+.card{
   background: none;
+  overflow: hidden;
 }
 
 .page-card img{
   object-fit: cover;
-  object-position: 0 0;
-  width: 292px;
-  height: : 178px;
+  height: 172px;
 }
 
 .page-card .card-title{
